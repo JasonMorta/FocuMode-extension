@@ -1,0 +1,19 @@
+{
+    "name": "Text to Wikipedia",
+    "description": "Search the highlighted text on wiki",
+    "manifest_version": 3,
+    "version": "0.1.0",
+    "permissions": ["contextMenus", "tabs"],
+
+    "background": {
+        "service_worker": "background.js"
+    },
+    "icons": {
+        "16": "icon16.png"
+    },
+    "action": {
+        "default_popup": "./popup.html",
+        "default_title": "Wiki search"
+       
+    }
+}
